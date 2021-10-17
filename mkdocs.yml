@@ -1,1 +1,20 @@
-site_name: My Docs
+site_name: Tako User Guide
+theme:
+  name: material
+  palette:
+    primary: amber
+  language: zh
+  features:
+    - toc.integrate
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: 中文
+      link: /
+      lang: zh
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
